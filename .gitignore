@@ -36,3 +36,18 @@ Module.symvers
 *.exe
 *.obj
 *.a
+
+# AD103/Z790 Windows port: private inputs and build outputs
+/windows/ad103-z790/local/
+/windows/ad103-z790/build/
+/windows/ad103-z790/probe/build/
+/windows/ad103-z790/ownership_probe/build/
+/windows/ad103-z790-en/local/
+/windows/ad103-z790-en/build/
+/windows/ad103-z790-en/probe/build/
+/windows/ad103-z790-en/ownership_probe/build/
+/windows/ad103-z790-en/combined_probe/build/
+
+# Dated manual backup snapshots: history belongs in git now, not a parallel
+# timestamped copy of the tree sitting next to it.
+/windows/ad103-z790_backup_*/
