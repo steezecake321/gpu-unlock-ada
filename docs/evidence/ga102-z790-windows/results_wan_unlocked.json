@@ -1,0 +1,30 @@
+{
+ "label": "wan_unlocked",
+ "w": 832,
+ "h": 480,
+ "length": 49,
+ "seed": 20261109,
+ "runs": [
+  {
+   "run": 1,
+   "wall_s": 55.6,
+   "server_s": 52.5,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 2,
+   "wall_s": 74.4,
+   "server_s": 71.0,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 3,
+   "wall_s": 52.7,
+   "server_s": 51.9,
+   "status": "success",
+   "cached": true
+  }
+ ]
+}

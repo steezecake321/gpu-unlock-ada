@@ -1,0 +1,15 @@
+# Selected lines from owner-provided run; other lines intentionally omitted.
+selector read: SS0=0x10100152 expected_unlock=0x88888888
+selector write: SS0=0x88888888
+selector result: SS0=0x88888888 expected=0x88888888 matched=1
+selector read: SS1=0x6 expected_unlock=0x8
+selector write: SS1=0x8
+selector result: SS1=0x8 expected=0x8 matched=1
+pre-FLR selectors: ss0=0x88888888 expected=0x88888888 ss1=0x8 expected=0x8
+PCIe FLR returned: result=0
+post-FLR BAR ready: chip=0xb72000a1
+post-FLR GFW result: error=0 pci=0x220310de plm=0x8b8f boot=0x3ff cpuctl=0x10 budget_us=2050000
+post-FLR SEC2 reset released, GSP halted, BME=0 pending=0 WPR2=1ffffe00:00000000 SS0=88888888 SS1=00000008
+post-FLR containment verified: platform_quiesced=1
+Transaction result=0 safe=1 retained=0 started=1 quiesced=1 flrs=1 DMA_live=0
+TRANSACTION OK: hardware readbacks passed, DMA released; final pre-Windows check follows unlogged; benchmark still required

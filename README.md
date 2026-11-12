@@ -91,6 +91,17 @@ profile; it does **not** add AD104 admission to the Linux module. See the
 binaries or automatic boot installer are distributed. Contribution by **Latence.app**;
 original upstream credits and licences are retained.
 
+## Experimental Windows contribution — RTX 3090 Ti / Z790
+
+The downstream [GA102 Windows UEFI port](windows/ga102-rogstrix-z790/README.md)
+records one completed manual cold-boot transaction on an RTX 3090 Ti / ASUS Z790,
+a Windows return, and matched dense GEMM gains of **+87.0% FP16**, **+91.0% BF16**
+and **+93.6% TF32**, with FP32 accumulation where applicable. Five ComfyUI workloads
+completed and all 472 paired decoded RGB outputs matched. Four workloads improved;
+one was unchanged. This exact-machine, source-only contribution by **steezecake321**
+does not broaden Linux target admission or establish general Windows compatibility.
+See the [evidence and limitations](docs/evidence/ga102-z790-windows/README.md).
+
 ## Supported targets
 
 The module selects the AD102 firmware and payload automatically for RTX 4090

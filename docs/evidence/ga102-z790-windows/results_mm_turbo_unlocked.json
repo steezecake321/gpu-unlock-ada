@@ -1,0 +1,30 @@
+{
+ "label": "mm_turbo_unlocked",
+ "w": 832,
+ "h": 480,
+ "length": 56,
+ "seed": 20261109,
+ "runs": [
+  {
+   "run": 1,
+   "wall_s": 28.2,
+   "server_s": 27.1,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 2,
+   "wall_s": 28.2,
+   "server_s": 26.9,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 3,
+   "wall_s": 32.2,
+   "server_s": 31.2,
+   "status": "success",
+   "cached": true
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "label": "wan_default",
+ "w": 832,
+ "h": 480,
+ "length": 49,
+ "seed": 20261109,
+ "runs": [
+  {
+   "run": 1,
+   "wall_s": 71.2,
+   "server_s": 68.8,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 2,
+   "wall_s": 88.4,
+   "server_s": 86.0,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 3,
+   "wall_s": 70.5,
+   "server_s": 69.1,
+   "status": "success",
+   "cached": true
+  }
+ ]
+}

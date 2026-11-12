@@ -1,0 +1,219 @@
+{
+  "rows": [
+    {
+      "workload": "wan",
+      "default": [
+        71.2,
+        88.4,
+        70.5
+      ],
+      "unlocked": [
+        55.6,
+        74.4,
+        52.7
+      ],
+      "default_median": 71.2,
+      "unlocked_median": 55.6,
+      "speedup_percent": 28.057553956834536,
+      "statuses": [
+        "success",
+        "success",
+        "success"
+      ],
+      "outliers_default": [
+        2
+      ],
+      "outliers_unlocked": [
+        2,
+        3
+      ]
+    },
+    {
+      "workload": "ltx",
+      "default": [
+        20.1,
+        22.1,
+        20.1
+      ],
+      "unlocked": [
+        20.1,
+        20.1,
+        20.1
+      ],
+      "default_median": 20.1,
+      "unlocked_median": 20.1,
+      "speedup_percent": 0.0,
+      "statuses": [
+        "success",
+        "success",
+        "success"
+      ],
+      "outliers_default": [
+        2
+      ],
+      "outliers_unlocked": []
+    },
+    {
+      "workload": "mm_turbo",
+      "default": [
+        32.2,
+        32.2,
+        32.2
+      ],
+      "unlocked": [
+        28.2,
+        28.2,
+        32.2
+      ],
+      "default_median": 32.2,
+      "unlocked_median": 28.2,
+      "speedup_percent": 14.184397163120588,
+      "statuses": [
+        "success",
+        "success",
+        "success"
+      ],
+      "outliers_default": [],
+      "outliers_unlocked": [
+        3
+      ]
+    },
+    {
+      "workload": "flux",
+      "default": [
+        22.2,
+        22.2,
+        22.1,
+        22.1,
+        22.2
+      ],
+      "unlocked": [
+        16.1,
+        16.1,
+        16.1,
+        16.1,
+        16.1
+      ],
+      "default_median": 22.2,
+      "unlocked_median": 16.1,
+      "speedup_percent": 37.888198757763966,
+      "statuses": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "outliers_default": [],
+      "outliers_unlocked": []
+    },
+    {
+      "workload": "qwen",
+      "default": [
+        12.1,
+        12.1,
+        12.1,
+        12.1,
+        12.1
+      ],
+      "unlocked": [
+        10.1,
+        8.3,
+        8.1,
+        8.1,
+        8.4
+      ],
+      "default_median": 12.1,
+      "unlocked_median": 8.3,
+      "speedup_percent": 45.783132530120476,
+      "statuses": [
+        "success",
+        "success",
+        "success",
+        "success",
+        "success"
+      ],
+      "outliers_default": [],
+      "outliers_unlocked": [
+        1
+      ]
+    }
+  ],
+  "telemetry": {
+    "wan_default": {
+      "busy_samples": 176,
+      "avg_sm_mhz": 2011.875,
+      "avg_power_w": 395.2319318181818,
+      "max_temp_c": 73.88,
+      "peak_mem_mib": 11429.0
+    },
+    "wan_unlocked": {
+      "busy_samples": 98,
+      "avg_sm_mhz": 1880.6632653061224,
+      "avg_power_w": 410.015306122449,
+      "max_temp_c": 70.53,
+      "peak_mem_mib": 11420.0
+    },
+    "ltx_default": {
+      "busy_samples": 26,
+      "avg_sm_mhz": 1978.8461538461538,
+      "avg_power_w": 394.6003846153846,
+      "max_temp_c": 70.88,
+      "peak_mem_mib": 23706.0
+    },
+    "ltx_unlocked": {
+      "busy_samples": 18,
+      "avg_sm_mhz": 1963.3333333333333,
+      "avg_power_w": 368.73333333333335,
+      "max_temp_c": 66.19,
+      "peak_mem_mib": 24022.0
+    },
+    "mm_turbo_default": {
+      "busy_samples": 64,
+      "avg_sm_mhz": 1932.890625,
+      "avg_power_w": 397.40984375,
+      "max_temp_c": 71.28,
+      "peak_mem_mib": 23948.0
+    },
+    "mm_turbo_unlocked": {
+      "busy_samples": 54,
+      "avg_sm_mhz": 1859.4444444444443,
+      "avg_power_w": 413.45314814814816,
+      "max_temp_c": 68.16,
+      "peak_mem_mib": 23902.0
+    },
+    "flux_default": {
+      "busy_samples": 119,
+      "avg_sm_mhz": 1997.3949579831933,
+      "avg_power_w": 385.4172268907563,
+      "max_temp_c": 77.16,
+      "peak_mem_mib": 18197.0
+    },
+    "flux_unlocked": {
+      "busy_samples": 79,
+      "avg_sm_mhz": 1887.1518987341772,
+      "avg_power_w": 424.2649367088608,
+      "max_temp_c": 73.0,
+      "peak_mem_mib": 20329.0
+    },
+    "qwen_default": {
+      "busy_samples": 56,
+      "avg_sm_mhz": 1995.267857142857,
+      "avg_power_w": 374.455,
+      "max_temp_c": 74.81,
+      "peak_mem_mib": 22199.0
+    },
+    "qwen_unlocked": {
+      "busy_samples": 38,
+      "avg_sm_mhz": 1871.4473684210527,
+      "avg_power_w": 413.32684210526315,
+      "max_temp_c": 71.12,
+      "peak_mem_mib": 22809.0
+    }
+  },
+  "environment_drift": [],
+  "gpu": "NVIDIA GeForce RTX 3090 Ti, 621.14",
+  "vbios_power_pcie": "94.02.a0.00.5e, 450.00 W, 450.00 W, 1, 8",
+  "comfyui": "0.45.2",
+  "pytorch": "2.13.0+cu130"
+}

@@ -36,3 +36,8 @@ Module.symvers
 *.exe
 *.obj
 *.a
+
+# GA102 Windows port: all owner-specific input and generated products stay local.
+/windows/ga102-rogstrix-z790/local/
+/windows/ga102-rogstrix-z790/**/build/
+/windows/ga102-rogstrix-z790/benchmark/comfy/results/

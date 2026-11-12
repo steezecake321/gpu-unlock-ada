@@ -1,0 +1,183 @@
+{
+  "wan": [
+    {
+      "run": 1,
+      "frames": 49,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 2,
+      "frames": 49,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 3,
+      "frames": 49,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    }
+  ],
+  "ltx": [
+    {
+      "run": 1,
+      "frames": 49,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 2,
+      "frames": 49,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 3,
+      "frames": 49,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    }
+  ],
+  "mm_turbo": [
+    {
+      "run": 1,
+      "frames": 56,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 2,
+      "frames": 56,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 3,
+      "frames": 56,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    }
+  ],
+  "flux": [
+    {
+      "run": 1,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 2,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 3,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 4,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 5,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    }
+  ],
+  "qwen": [
+    {
+      "run": 1,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 2,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 3,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 4,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    },
+    {
+      "run": 5,
+      "frames": 1,
+      "different_frames": 0,
+      "mean_absolute_pixel_difference": 0.0,
+      "worst_frame_mean_absolute_difference": 0.0,
+      "max_channel_difference": 0,
+      "status": "compared"
+    }
+  ]
+}

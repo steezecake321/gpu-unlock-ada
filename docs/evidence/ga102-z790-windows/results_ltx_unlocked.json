@@ -1,0 +1,30 @@
+{
+ "label": "ltx_unlocked",
+ "w": 832,
+ "h": 480,
+ "length": 49,
+ "seed": 20261109,
+ "runs": [
+  {
+   "run": 1,
+   "wall_s": 20.1,
+   "server_s": 18.8,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 2,
+   "wall_s": 20.1,
+   "server_s": 18.9,
+   "status": "success",
+   "cached": true
+  },
+  {
+   "run": 3,
+   "wall_s": 20.1,
+   "server_s": 18.6,
+   "status": "success",
+   "cached": true
+  }
+ ]
+}

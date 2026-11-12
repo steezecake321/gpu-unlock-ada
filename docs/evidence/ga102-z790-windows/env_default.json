@@ -1,0 +1,15 @@
+{
+  "label": "default",
+  "captured": "2026-11-11 04:32:01",
+  "gpu": "NVIDIA GeForce RTX 3090 Ti, 621.14",
+  "vbios_and_power": "94.02.a0.00.5e, 450.00 W, 450.00 W, 1, 8",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "comfyui": {
+    "comfyui_version": "0.45.2",
+    "python_version": "3.12.11 (main, Oct  7 2025, 15:33:03) [MSC v.1944 64 bit (AMD64)]",
+    "pytorch_version": "2.13.0+cu130",
+    "device": "cuda:0 NVIDIA GeForce RTX 3090 Ti : cudaMallocAsync",
+    "vram_total_gib": 24.0
+  }
+}

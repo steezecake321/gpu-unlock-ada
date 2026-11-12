@@ -42,3 +42,13 @@
 
 # Preserve exact native RTX 4070 evidence bytes across platforms.
 /docs/evidence/ada2786/* -text
+
+# GA102 Windows publication: preserve tested source/evidence bytes and include the native test.
+/windows/ga102-rogstrix-z790/** -text whitespace=cr-at-eol,-blank-at-eof
+/docs/evidence/ga102-z790-windows/** -text whitespace=cr-at-eol,-blank-at-eof
+/windows/ga102-rogstrix-z790/benchmark/gemm_bench.cu -export-ignore
+
+# GA102 Windows publication: preserve tested source/evidence bytes and include the native test.
+/windows/ga102-rogstrix-z790/** -text whitespace=cr-at-eol,-blank-at-eof
+/docs/evidence/ga102-z790-windows/** -text whitespace=cr-at-eol,-blank-at-eof
+/windows/ga102-rogstrix-z790/benchmark/gemm_bench.cu -export-ignore
