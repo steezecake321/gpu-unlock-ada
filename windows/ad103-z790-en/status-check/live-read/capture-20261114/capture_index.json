@@ -1,0 +1,982 @@
+[
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 76,
+    "dumped": 76,
+    "first16": "4144564e020001004c0000002a2a564e",
+    "index": 0,
+    "bin": "esc_000.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 76,
+    "dumped": 76,
+    "first16": "4144564e020001004c0000002a2a564e",
+    "index": 1,
+    "bin": "esc_001.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 452,
+    "dumped": 452,
+    "first16": "4144564e02000100c40100002a2a564e",
+    "index": 2,
+    "bin": "esc_002.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 452,
+    "dumped": 452,
+    "first16": "4144564e02000100c40100002a2a564e",
+    "index": 3,
+    "bin": "esc_003.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 80,
+    "dumped": 80,
+    "first16": "4144564e02000100500000002a2a564e",
+    "index": 4,
+    "bin": "esc_004.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 80,
+    "dumped": 80,
+    "first16": "4144564e02000100500000002a2a564e",
+    "index": 5,
+    "bin": "esc_005.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 72,
+    "dumped": 72,
+    "first16": "4144564e02000100480000002a2a564e",
+    "index": 6,
+    "bin": "esc_006.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 72,
+    "dumped": 72,
+    "first16": "4144564e02000100480000002a2a564e",
+    "index": 7,
+    "bin": "esc_007.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x400001c0",
+    "privateSize": 192,
+    "dumped": 192,
+    "first16": "4144564e02000100c00000002a2a564e",
+    "index": 8,
+    "bin": "esc_008.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x400001c0",
+    "privateSize": 192,
+    "dumped": 192,
+    "first16": "4144564e02000100c00000002a2a564e",
+    "index": 9,
+    "bin": "esc_009.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 200,
+    "dumped": 200,
+    "first16": "4144564e02000100c80000002a2a564e",
+    "index": 10,
+    "bin": "esc_010.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 200,
+    "dumped": 200,
+    "first16": "4144564e02000100c80000002a2a564e",
+    "index": 11,
+    "bin": "esc_011.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 108,
+    "dumped": 108,
+    "first16": "4144564e020001006c0000002a2a564e",
+    "index": 12,
+    "bin": "esc_012.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 108,
+    "dumped": 108,
+    "first16": "4144564e020001006c0000002a2a564e",
+    "index": 13,
+    "bin": "esc_013.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 128,
+    "dumped": 128,
+    "first16": "4144564e02000100800000002a2a564e",
+    "index": 14,
+    "bin": "esc_014.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 128,
+    "dumped": 128,
+    "first16": "4144564e02000100800000002a2a564e",
+    "index": 15,
+    "bin": "esc_015.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 332,
+    "dumped": 332,
+    "first16": "4144564e020001004c0100002a2a564e",
+    "index": 16,
+    "bin": "esc_016.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 332,
+    "dumped": 332,
+    "first16": "4144564e020001004c0100002a2a564e",
+    "index": 17,
+    "bin": "esc_017.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 336,
+    "dumped": 336,
+    "first16": "4144564e02000100500100002a2a564e",
+    "index": 18,
+    "bin": "esc_018.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 336,
+    "dumped": 336,
+    "first16": "4144564e02000100500100002a2a564e",
+    "index": 19,
+    "bin": "esc_019.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 69,
+    "dumped": 69,
+    "first16": "4144564e02000100450000002a2a564e",
+    "index": 20,
+    "bin": "esc_020.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 69,
+    "dumped": 69,
+    "first16": "4144564e02000100450000002a2a564e",
+    "index": 21,
+    "bin": "esc_021.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1444,
+    "dumped": 512,
+    "first16": "4144564e02000100a40500002a2a564e",
+    "index": 22,
+    "bin": "esc_022.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1444,
+    "dumped": 512,
+    "first16": "4144564e02000100a40500002a2a564e",
+    "index": 23,
+    "bin": "esc_023.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 84,
+    "dumped": 84,
+    "first16": "4144564e02000100540000002a2a564e",
+    "index": 24,
+    "bin": "esc_024.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 84,
+    "dumped": 84,
+    "first16": "4144564e02000100540000002a2a564e",
+    "index": 25,
+    "bin": "esc_025.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 88,
+    "dumped": 88,
+    "first16": "4144564e02000100580000002a2a564e",
+    "index": 26,
+    "bin": "esc_026.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 88,
+    "dumped": 88,
+    "first16": "4144564e02000100580000002a2a564e",
+    "index": 27,
+    "bin": "esc_027.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 204,
+    "dumped": 204,
+    "first16": "4144564e02000100cc0000002a2a564e",
+    "index": 28,
+    "bin": "esc_028.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 204,
+    "dumped": 204,
+    "first16": "4144564e02000100cc0000002a2a564e",
+    "index": 29,
+    "bin": "esc_029.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 656,
+    "dumped": 512,
+    "first16": "4144564e02000100900200002a2a564e",
+    "index": 30,
+    "bin": "esc_030.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 656,
+    "dumped": 512,
+    "first16": "4144564e02000100900200002a2a564e",
+    "index": 31,
+    "bin": "esc_031.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 73,
+    "dumped": 73,
+    "first16": "4144564e02000100490000002a2a564e",
+    "index": 32,
+    "bin": "esc_032.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 73,
+    "dumped": 73,
+    "first16": "4144564e02000100490000002a2a564e",
+    "index": 33,
+    "bin": "esc_033.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 68,
+    "dumped": 68,
+    "first16": "4144564e02000100440000002a2a564e",
+    "index": 34,
+    "bin": "esc_034.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 68,
+    "dumped": 68,
+    "first16": "4144564e02000100440000002a2a564e",
+    "index": 35,
+    "bin": "esc_035.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 872,
+    "dumped": 512,
+    "first16": "4144564e02000100680300002a2a564e",
+    "index": 36,
+    "bin": "esc_036.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 872,
+    "dumped": 512,
+    "first16": "4144564e02000100680300002a2a564e",
+    "index": 37,
+    "bin": "esc_037.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 140,
+    "dumped": 140,
+    "first16": "4144564e020001008c0000002a2a564e",
+    "index": 38,
+    "bin": "esc_038.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 140,
+    "dumped": 140,
+    "first16": "4144564e020001008c0000002a2a564e",
+    "index": 39,
+    "bin": "esc_039.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 144,
+    "dumped": 144,
+    "first16": "4144564e02000100900000002a2a564e",
+    "index": 40,
+    "bin": "esc_040.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 144,
+    "dumped": 144,
+    "first16": "4144564e02000100900000002a2a564e",
+    "index": 41,
+    "bin": "esc_041.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 100,
+    "dumped": 100,
+    "first16": "4144564e02000100640000002a2a564e",
+    "index": 42,
+    "bin": "esc_042.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 100,
+    "dumped": 100,
+    "first16": "4144564e02000100640000002a2a564e",
+    "index": 43,
+    "bin": "esc_043.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1500,
+    "dumped": 512,
+    "first16": "4144564e02000100dc0500002a2a564e",
+    "index": 44,
+    "bin": "esc_044.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1500,
+    "dumped": 512,
+    "first16": "4144564e02000100dc0500002a2a564e",
+    "index": 45,
+    "bin": "esc_045.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 912,
+    "dumped": 512,
+    "first16": "4144564e02000100900300002a2a564e",
+    "index": 46,
+    "bin": "esc_046.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 912,
+    "dumped": 512,
+    "first16": "4144564e02000100900300002a2a564e",
+    "index": 47,
+    "bin": "esc_047.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 120,
+    "dumped": 120,
+    "first16": "4144564e02000100780000002a2a564e",
+    "index": 48,
+    "bin": "esc_048.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 120,
+    "dumped": 120,
+    "first16": "4144564e02000100780000002a2a564e",
+    "index": 49,
+    "bin": "esc_049.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 92,
+    "dumped": 92,
+    "first16": "4144564e020001005c0000002a2a564e",
+    "index": 50,
+    "bin": "esc_050.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 92,
+    "dumped": 92,
+    "first16": "4144564e020001005c0000002a2a564e",
+    "index": 51,
+    "bin": "esc_051.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 572,
+    "dumped": 512,
+    "first16": "4144564e020001003c0200002a2a564e",
+    "index": 52,
+    "bin": "esc_052.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 572,
+    "dumped": 512,
+    "first16": "4144564e020001003c0200002a2a564e",
+    "index": 53,
+    "bin": "esc_053.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 588,
+    "dumped": 512,
+    "first16": "4144564e020001004c0200002a2a564e",
+    "index": 54,
+    "bin": "esc_054.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 588,
+    "dumped": 512,
+    "first16": "4144564e020001004c0200002a2a564e",
+    "index": 55,
+    "bin": "esc_055.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 164,
+    "dumped": 164,
+    "first16": "4144564e02000100a40000002a2a564e",
+    "index": 56,
+    "bin": "esc_056.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 164,
+    "dumped": 164,
+    "first16": "4144564e02000100a40000002a2a564e",
+    "index": 57,
+    "bin": "esc_057.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1892,
+    "dumped": 512,
+    "first16": "4144564e02000100640700002a2a564e",
+    "index": 58,
+    "bin": "esc_058.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1892,
+    "dumped": 512,
+    "first16": "4144564e02000100640700002a2a564e",
+    "index": 59,
+    "bin": "esc_059.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 70,
+    "dumped": 70,
+    "first16": "4144564e02000100460000002a2a564e",
+    "index": 60,
+    "bin": "esc_060.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 70,
+    "dumped": 70,
+    "first16": "4144564e02000100460000002a2a564e",
+    "index": 61,
+    "bin": "esc_061.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 2124,
+    "dumped": 512,
+    "first16": "4144564e020001004c0800002a2a564e",
+    "index": 62,
+    "bin": "esc_062.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 2124,
+    "dumped": 512,
+    "first16": "4144564e020001004c0800002a2a564e",
+    "index": 63,
+    "bin": "esc_063.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 6220,
+    "dumped": 512,
+    "first16": "4144564e020001004c1800002a2a564e",
+    "index": 64,
+    "bin": "esc_064.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 6220,
+    "dumped": 512,
+    "first16": "4144564e020001004c1800002a2a564e",
+    "index": 65,
+    "bin": "esc_065.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 8276,
+    "dumped": 512,
+    "first16": "4144564e02000100542000002a2a564e",
+    "index": 66,
+    "bin": "esc_066.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 8276,
+    "dumped": 512,
+    "first16": "4144564e02000100542000002a2a564e",
+    "index": 67,
+    "bin": "esc_067.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 17460,
+    "dumped": 512,
+    "first16": "4144564e02000100344400002a2a564e",
+    "index": 68,
+    "bin": "esc_068.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 17460,
+    "dumped": 512,
+    "first16": "4144564e02000100344400002a2a564e",
+    "index": 69,
+    "bin": "esc_069.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1852,
+    "dumped": 512,
+    "first16": "4144564e020001003c0700002a2a564e",
+    "index": 70,
+    "bin": "esc_070.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1852,
+    "dumped": 512,
+    "first16": "4144564e020001003c0700002a2a564e",
+    "index": 71,
+    "bin": "esc_071.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1508,
+    "dumped": 512,
+    "first16": "4144564e02000100e40500002a2a564e",
+    "index": 72,
+    "bin": "esc_072.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 1508,
+    "dumped": 512,
+    "first16": "4144564e02000100e40500002a2a564e",
+    "index": 73,
+    "bin": "esc_073.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 24600,
+    "dumped": 512,
+    "first16": "4144564e02000100186000002a2a564e",
+    "index": 74,
+    "bin": "esc_074.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 24600,
+    "dumped": 512,
+    "first16": "4144564e02000100186000002a2a564e",
+    "index": 75,
+    "bin": "esc_075.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 20580,
+    "dumped": 512,
+    "first16": "4144564e02000100645000002a2a564e",
+    "index": 76,
+    "bin": "esc_076.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 20580,
+    "dumped": 512,
+    "first16": "4144564e02000100645000002a2a564e",
+    "index": 77,
+    "bin": "esc_077.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 54420,
+    "dumped": 512,
+    "first16": "4144564e0200010094d400002a2a564e",
+    "index": 78,
+    "bin": "esc_078.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 54420,
+    "dumped": 512,
+    "first16": "4144564e0200010094d400002a2a564e",
+    "index": 79,
+    "bin": "esc_079.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 96,
+    "dumped": 96,
+    "first16": "4144564e02000100600000002a2a564e",
+    "index": 80,
+    "bin": "esc_080.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 96,
+    "dumped": 96,
+    "first16": "4144564e02000100600000002a2a564e",
+    "index": 81,
+    "bin": "esc_081.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 9284,
+    "dumped": 512,
+    "first16": "4144564e02000100442400002a2a564e",
+    "index": 82,
+    "bin": "esc_082.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 9284,
+    "dumped": 512,
+    "first16": "4144564e02000100442400002a2a564e",
+    "index": 83,
+    "bin": "esc_083.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 17744,
+    "dumped": 512,
+    "first16": "4144564e02000100504500002a2a564e",
+    "index": 84,
+    "bin": "esc_084.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 17744,
+    "dumped": 512,
+    "first16": "4144564e02000100504500002a2a564e",
+    "index": 85,
+    "bin": "esc_085.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 67464,
+    "dumped": 512,
+    "first16": "4144564e02000100880701002a2a564e",
+    "index": 86,
+    "bin": "esc_086.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 67464,
+    "dumped": 512,
+    "first16": "4144564e02000100880701002a2a564e",
+    "index": 87,
+    "bin": "esc_087.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 388,
+    "dumped": 388,
+    "first16": "4144564e02000100840100002a2a564e",
+    "index": 88,
+    "bin": "esc_088.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 388,
+    "dumped": 388,
+    "first16": "4144564e02000100840100002a2a564e",
+    "index": 89,
+    "bin": "esc_089.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 3880,
+    "dumped": 512,
+    "first16": "4144564e02000100280f00002a2a564e",
+    "index": 90,
+    "bin": "esc_090.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 3880,
+    "dumped": 512,
+    "first16": "4144564e02000100280f00002a2a564e",
+    "index": 91,
+    "bin": "esc_091.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 14476,
+    "dumped": 512,
+    "first16": "4144564e020001008c3800002a2a564e",
+    "index": 92,
+    "bin": "esc_092.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 14476,
+    "dumped": 512,
+    "first16": "4144564e020001008c3800002a2a564e",
+    "index": 93,
+    "bin": "esc_093.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 64,
+    "dumped": 64,
+    "first16": "4144564e02000100400000002a2a564e",
+    "index": 94,
+    "bin": "esc_094.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 64,
+    "dumped": 64,
+    "first16": "4144564e02000100400000002a2a564e",
+    "index": 95,
+    "bin": "esc_095.bin"
+  },
+  {
+    "label": "gdi32.dll!D3DKMTEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 196,
+    "dumped": 196,
+    "first16": "4144564e02000100c40000002a2a564e",
+    "index": 96,
+    "bin": "esc_096.bin"
+  },
+  {
+    "label": "win32u.dll!NtGdiDdDDIEscape",
+    "escapeType": 0,
+    "hAdapter": "0x40000100",
+    "privateSize": 196,
+    "dumped": 196,
+    "first16": "4144564e02000100c40000002a2a564e",
+    "index": 97,
+    "bin": "esc_097.bin"
+  }
+]

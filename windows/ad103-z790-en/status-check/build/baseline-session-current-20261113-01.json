@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "created_utc": "2026-11-13T05:57:15.359579+00:00",
+  "claim": "performance-based inference only; no live selector/register read",
+  "same_boot_receipt": {
+    "status": "unavailable",
+    "reason": "Z790 EFI path has no receipt writer or Windows observer"
+  },
+  "status": "inconclusive",
+  "reasons": [
+    "local stock/unlocked calibration is not yet qualified",
+    "calibration does not contain a complete benchmark executable SHA-256",
+    "calibration does not contain the benchmark source SHA-256",
+    "not enough independent calibration sessions for each state",
+    "calibration is missing CUDA runtime/library binary hashes"
+  ],
+  "boot_time_utc": "2026-11-12T05:45:46+00:00",
+  "idle_gate": {
+    "url": "http://127.0.0.1:8188/queue",
+    "running": 0,
+    "pending": 0,
+    "max_gpu_utilization_percent": 25
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "device_id": "0x270510de",
+    "vbios": "95.03.45.80.07",
+    "driver": "621.14",
+    "utilization_percent": 23,
+    "memory_used_mib": 1164,
+    "memory_total_mib": 16376,
+    "temperature_c": 46.96,
+    "power_w": 9.49,
+    "power_limit_w": "285.00",
+    "cuda_toolkit": "13.5",
+    "cuda_runtime_and_library_sha256": {
+      "cudart64_13.dll": "16ab35d8150b6105b7e49da264d360db4ece090157ad48d226c1dc7254136008",
+      "cublas64_13.dll": "db5a1d5a0ed0ef126e005fc7449d3584353aaeb8739a18d716fe74be1254a3da"
+    }
+  },
+  "software": {
+    "cuda_toolkit": "13.5",
+    "nvcc_version_output": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2026 NVIDIA Corporation\nBuilt on Sun_Oct_12_19:25:36_Pacific_Standard_Time_2026\nCuda compilation tools, release 13.5, V13.5.37\nBuild cuda_13.5.r13.5/compiler.39125733_0",
+    "benchmark_source_sha256": "7a02decd30c017ec05b61d25c34cf46958242ceeed65852c31ea0736dbdefca4",
+    "benchmark_executable_sha256": "092e0b6e868492531cfbddb198ec874571fa4ed74dc73d48f47e022c83b51337",
+    "benchmark_args": [
+      "20000",
+      "5"
+    ],
+    "cuda_runtime_and_library_sha256": {
+      "cudart64_13.dll": "16ab35d8150b6105b7e49da264d360db4ece090157ad48d226c1dc7254136008",
+      "cublas64_13.dll": "db5a1d5a0ed0ef126e005fc7449d3584353aaeb8739a18d716fe74be1254a3da"
+    }
+  },
+  "calibration": {
+    "status": "pending_repeat_calibration",
+    "reason": "One stock soak and one unlocked soak exist; the saved benchmark executable SHA-256 is abbreviated, not sufficient to establish an exact binary fingerprint.",
+    "required_independent_sessions_per_state": 2,
+    "sessions_available": {
+      "stock": 1,
+      "unlocked": 1
+    },
+    "benchmark_sha256": null,
+    "source_sha256": null,
+    "fingerprint": {
+      "device_id": "0x270510de",
+      "vbios": "95.03.45.80.07",
+      "driver": "621.14",
+      "cuda_toolkit": "13.5"
+    },
+    "benchmark": {
+      "source": "diagnostics/bench/mma_bench.cu",
+      "build": "nvcc -O3 -arch=sm_89 -std=c++17",
+      "arguments": [
+        "20000",
+        "5"
+      ],
+      "historical_binary_sha256_excerpt": {
+        "stock_and_unlocked": "cc534b4f...8069d"
+      },
+      "note": "The original full executable hash is not present in the evidence, so the current checker deliberately cannot classify until exact calibration hashes and repeated sessions are recorded."
+    },
+    "control_ratio_band": [
+      0.2,
+      0.3
+    ],
+    "profiles": {
+      "stock": {
+        "basis": "Median of per-invocation best rates across one 300-second soak, docs/evidence/ada2705-windows-soak/stock.",
+        "reference_TFLOPS": {
+          "f16_f32": 88.8,
+          "bf16_f32": 90.4,
+          "fp8_e4m3": 182.1,
+          "f16_f16_control": 182.6,
+          "ffma_control": 45.2
+        },
+        "ratio_bands": {
+          "fp16_fp32_over_fp16_fp16": [
+            0.4,
+            0.6
+          ],
+          "bf16_fp32_over_fp16_fp16": [
+            0.4,
+            0.61
+          ],
+          "fp8_over_fp16_fp16": [
+            0.75,
+            1.25
+          ]
+        }
+      },
+      "unlocked": {
+        "basis": "Median of per-invocation best rates across one 300-second soak, docs/evidence/ada2705-windows-soak/unlocked.",
+        "reference_TFLOPS": {
+          "f16_f32": 195.7,
+          "bf16_f32": 195.4,
+          "fp8_e4m3": 392.2,
+          "f16_f16_control": 195.4,
+          "ffma_control": 47.2
+        },
+        "ratio_bands": {
+          "fp16_fp32_over_fp16_fp16": [
+            0.85,
+            1.15
+          ],
+          "bf16_fp32_over_fp16_fp16": [
+            0.85,
+            1.15
+          ],
+          "fp8_over_fp16_fp16": [
+            1.7,
+            2.3
+          ]
+        }
+      }
+    }
+  },
+  "numerical_validation": "GPU: NVIDIA GeForce RTX 4070 Ti SUPER, sm_89, PCI 0000:01:00.0\nFP16/FP32: m=256 n=256 k=256 seed=1, 65536 cells, failures=0, max_abs=0\nBF16/FP32: m=256 n=256 k=256 seed=1, 65536 cells, failures=0, max_abs=0\nFP16/FP32: m=64 n=96 k=128 seed=2, 6144 cells, failures=0, max_abs=0\nBF16/FP32: m=64 n=96 k=128 seed=2, 6144 cells, failures=0, max_abs=0\nFP16/FP32: m=127 n=65 k=95 seed=3, 8255 cells, failures=0, max_abs=0\nBF16/FP32: m=127 n=65 k=95 seed=3, 8255 cells, failures=0, max_abs=0",
+  "fp8_numerical_validation": "FP8 E4M3 x E4M3 -> FP32: 512/512 outputs equal 32; zero mismatches",
+  "benchmark": {
+    "modes": {
+      "f16/f16": {
+        "best": 194.7,
+        "samples": [
+          169.6,
+          181.6,
+          187.4,
+          194.7,
+          189.4
+        ],
+        "median": 187.4,
+        "range_fraction": 0.13393810032017073
+      },
+      "f16/f32": {
+        "best": 189.0,
+        "samples": [
+          186.0,
+          189.0,
+          183.4,
+          188.8,
+          188.6
+        ],
+        "median": 188.6,
+        "range_fraction": 0.029692470837751825
+      },
+      "bf16/f32": {
+        "best": 194.5,
+        "samples": [
+          188.6,
+          182.7,
+          186.8,
+          194.5,
+          189.7
+        ],
+        "median": 188.6,
+        "range_fraction": 0.06256627783669147
+      },
+      "fp8/e4m3": {
+        "best": 393.6,
+        "samples": [
+          386.8,
+          393.4,
+          383.3,
+          393.6,
+          393.4
+        ],
+        "median": 393.4,
+        "range_fraction": 0.02618200305033048
+      },
+      "ffma": {
+        "best": 47.5,
+        "samples": [
+          47.4,
+          47.5,
+          43.8,
+          46.9,
+          41.3
+        ],
+        "median": 46.9,
+        "range_fraction": 0.13219616204690837
+      }
+    },
+    "ratios": {
+      "fp16_fp32_over_fp16_fp16": 0.9707241910631742,
+      "bf16_fp32_over_fp16_fp16": 0.9989727786337956,
+      "fp8_over_fp16_fp16": 2.021571648690293,
+      "ffma_over_fp16_fp16": 0.24396507447354907
+    },
+    "raw_stdout": "# NVIDIA GeForce RTX 4070 Ti SUPER, 66 SMs, sm_89, iters=20000 reps=5\nmode       best TF/s   all runs\nf16/f16        194.7 169.6/181.6/187.4/194.7/189.4\nf16/f32        189.0 186.0/189.0/183.4/188.8/188.6\nbf16/f32       194.5 188.6/182.7/186.8/194.5/189.7\ns8/s32         395.0 368.1/392.0/363.9/395.0/388.8\nfp8/e4m3       393.6 386.8/393.4/383.3/393.6/393.4\ndp4a            98.3 96.7/88.0/98.3/89.8/98.2\nffma            47.5 47.4/47.5/43.8/46.9/41.3\n"
+  },
+  "gpu_after": [
+    "59.76",
+    "145.12",
+    "100",
+    "1159"
+  ],
+  "interpretation": "unlocked-like or stock-like performance only; not proof of current register state"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": 2,
+  "classifier": "ratio-v2",
+  "status": "qualified",
+  "scope": "AD103 RTX 4070 Ti SUPER (PCI 0x270510de). Classifies the tensor-core throttle signature from same-run ratios. Driver, CUDA runtime and benchmark-binary versions are recorded but deliberately NOT gating: every ratio is normalized to the same-run FP16-input/FP16-accumulate control, so absolute driver/clock differences cancel. This is a performance signature, not a live SS0/SS1 register read.",
+  "device_id": "0x270510de",
+  "expected_vbios": "95.03.45.80.07",
+  "why_driver_agnostic": "The locked state halves FP32-accumulate tensor throughput and FP8 relative to the FP16-accumulate control (a hardware selector effect, ~0.5x and ~1.0x); unlocked runs ~1.0x and ~2.0x. Measured identically on drivers 610.88, 621.14 and 621.24 across 5 boots (14 sessions, table below). The gap between the bands is >0.3 on every ratio.",
+  "gates": {
+    "control_ratio_band_ffma_over_fp16_fp16": [0.20, 0.30],
+    "min_fp16_fp16_control_TFLOPS": 120.0,
+    "max_range_fraction_per_mode": 0.20,
+    "benchmark_attempts_if_unstable": 3
+  },
+  "states": {
+    "locked": {
+      "fp16_fp32_over_fp16_fp16": [0.40, 0.62],
+      "bf16_fp32_over_fp16_fp16": [0.40, 0.62],
+      "fp8_over_fp16_fp16": [0.80, 1.25]
+    },
+    "unlocked": {
+      "fp16_fp32_over_fp16_fp16": [0.82, 1.18],
+      "bf16_fp32_over_fp16_fp16": [0.82, 1.18],
+      "fp8_over_fp16_fp16": [1.65, 2.35]
+    }
+  },
+  "known_benchmark_sha256": {
+    "092e0b6e868492531cfbddb198ec874571fa4ed74dc73d48f47e022c83b51337": "mma_bench.exe built from mma_bench.cu 7a02decd... (nvcc 13.5, sm_89); a different hash is recorded as a warning, not a failure"
+  },
+  "evidence": [
+    {"label": "locked", "driver": "610.88", "boot_utc": "2026-11-13T06:15:17", "sessions": 3, "fp16_fp32": [0.499, 0.506], "fp8": [0.997, 1.016], "source": "repo/windows/ad103-z790-en/status-check/build/baseline-session-stock-610.88-20261113-0[1-3].json"},
+    {"label": "locked", "driver": "621.24", "boot_utc": "2026-11-13T06:59:28", "sessions": 3, "fp16_fp32": [0.500, 0.502], "fp8": [0.995, 1.002], "source": "D:/AI/bench/AD103-RTX4070TiSUPER-621.24-locked-20261113/tensor-session-0[1-3].json (+30 min soak, 366 invocations)"},
+    {"label": "unlocked", "driver": "621.14", "boot_utc": "2026-11-12T05:45:46", "sessions": 4, "fp16_fp32": [0.971, 0.999], "fp8": [1.986, 2.034], "source": "status-check/build/baseline-session-current-20261113-0[1-3].json, live-report.json"},
+    {"label": "unlocked", "driver": "621.24", "boot_utc": "2026-11-13T13:37:48", "sessions": 3, "fp16_fp32": [0.954, 1.046], "fp8": [1.886, 2.072], "source": "D:/AI/bench/AD103-RTX4070TiSUPER-621.24-unlocked-20261113-RUN0005/AD103-tensor-session-0[1-3].json (EFI RUN0005 TRANSACTION OK)"},
+    {"label": "unlocked", "driver": "621.24", "boot_utc": "2026-11-14T03:48:56", "sessions": 1, "fp16_fp32": [0.995, 0.995], "fp8": [2.007, 2.007], "source": "D:/AI/bench/AD103-quickcheck-20261114.json (EFI handoff variable State 4 / checks 7)"}
+  ],
+  "previous_calibration_backup": "D:/AI/backups_old/2026-11-14_ad103-status-check-pre-ratio-v2/calibration.json"
+}

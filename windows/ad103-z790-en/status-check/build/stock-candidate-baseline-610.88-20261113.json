@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "label": "stock-candidate",
+  "state_basis": "Operator-confirmed standard Windows restart to default Windows Boot Manager; checker itself cannot read unlock selectors.",
+  "created_utc": "2026-11-13T06:22:18.4870288Z",
+  "driver": "610.88",
+  "fingerprint": {
+    "device_id": "0x270510de",
+    "vbios": "95.03.45.80.07",
+    "driver": "610.88",
+    "cuda_toolkit": "13.5",
+    "benchmark_sha256": "092e0b6e868492531cfbddb198ec874571fa4ed74dc73d48f47e022c83b51337",
+    "benchmark_source_sha256": "7a02decd30c017ec05b61d25c34cf46958242ceeed65852c31ea0736dbdefca4",
+    "cuda_runtime_and_library_sha256": {
+      "cudart64_13.dll": "16ab35d8150b6105b7e49da264d360db4ece090157ad48d226c1dc7254136008",
+      "cublas64_13.dll": "db5a1d5a0ed0ef126e005fc7449d3584353aaeb8739a18d716fe74be1254a3da"
+    }
+  },
+  "session_count": 3,
+  "independent_boot_sessions": 1,
+  "per_run_utilization_ceiling_percent": 35,
+  "results": {
+    "bf16/f32": {
+      "min": 95.5,
+      "samples": [
+        95.5,
+        95.6,
+        95.7
+      ],
+      "median": 95.6,
+      "max": 95.7
+    },
+    "ffma": {
+      "min": 47.5,
+      "samples": [
+        47.5,
+        47.5,
+        47.5
+      ],
+      "median": 47.5,
+      "max": 47.5
+    },
+    "f16/f32": {
+      "min": 95.5,
+      "samples": [
+        95.5,
+        95.7,
+        96.3
+      ],
+      "median": 95.7,
+      "max": 96.3
+    },
+    "fp8/e4m3": {
+      "min": 190.4,
+      "samples": [
+        190.4,
+        191.9,
+        193.5
+      ],
+      "median": 191.9,
+      "max": 193.5
+    },
+    "f16/f16": {
+      "min": 190.5,
+      "samples": [
+        190.5,
+        190.9,
+        191.4
+      ],
+      "median": 190.9,
+      "max": 191.4
+    }
+  },
+  "ratios": {
+    "fp16_fp32_over_fp16_fp16": {
+      "min": 0.49895506792058514,
+      "samples": [
+        0.49895506792058514,
+        0.50130958617077,
+        0.5055118110236221
+      ],
+      "median": 0.50130958617077,
+      "max": 0.5055118110236221
+    },
+    "fp8_over_fp16_fp16": {
+      "min": 0.9973808276584599,
+      "samples": [
+        0.9973808276584599,
+        1.002612330198537,
+        1.015748031496063
+      ],
+      "median": 1.002612330198537,
+      "max": 1.015748031496063
+    },
+    "ffma_over_fp16_fp16": {
+      "min": 0.24817136886102403,
+      "samples": [
+        0.24817136886102403,
+        0.24882137244630695,
+        0.24934383202099739
+      ],
+      "median": 0.24882137244630695,
+      "max": 0.24934383202099739
+    },
+    "bf16_fp32_over_fp16_fp16": {
+      "min": 0.49895506792058514,
+      "samples": [
+        0.49895506792058514,
+        0.50130958617077,
+        0.5018372703412073
+      ],
+      "median": 0.50130958617077,
+      "max": 0.5018372703412073
+    }
+  },
+  "checker_reports": [
+    "baseline-session-stock-610.88-20261113-01.json",
+    "baseline-session-stock-610.88-20261113-02.json",
+    "baseline-session-stock-610.88-20261113-03.json"
+  ],
+  "checker_status": "inconclusive: calibration fingerprint and independent state sessions remain unqualified"
+}
