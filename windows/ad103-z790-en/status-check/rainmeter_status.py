@@ -29,6 +29,11 @@ def main():
     args = parser.parse_args()
     observation = snapshot()
     if args.publish:
+        try:
+            from live_register_read import read_live_state
+            observation['live_gpu_state'] = read_live_state()
+        except Exception:
+            pass  # live_gpu_state stays whatever snapshot() set (UNKNOWN)
         tmp = CACHE.with_suffix('.tmp')
         tmp.write_text(json.dumps(observation, indent=2) + '\n', encoding='utf-8')
         tmp.replace(CACHE)
