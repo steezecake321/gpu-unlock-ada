@@ -44,7 +44,11 @@ def read_live_state(harvest_timeout=8.0):
     pid = None
     session = None
     try:
-        pid = frida.spawn([SMI, '-l', '1'])
+        # stdio='pipe': the publisher runs headless under pythonw.exe (no
+        # console of its own via Task Scheduler), so the default 'inherit'
+        # leaves nvidia-smi with nothing to inherit and Windows pops it a
+        # brand new visible console window. 'pipe' avoids that.
+        pid = frida.spawn([SMI, '-l', '1'], stdio='pipe')
         session = frida.attach(pid)
         script = session.create_script(SCRIPT.read_text(encoding='utf-8'))
         script.on('message', lambda *_: None)

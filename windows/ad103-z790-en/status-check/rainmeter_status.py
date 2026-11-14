@@ -1,6 +1,5 @@
 """Privileged firmware publisher and unprivileged, boot-bound Rainmeter reader."""
 import argparse
-import datetime as dt
 import json
 from pathlib import Path
 from boot_status import snapshot
@@ -8,13 +7,13 @@ from boot_status import snapshot
 CACHE = Path(r'D:\AI\bench\AD103-rainmeter-status.json')
 
 
-def display_state(record, current_boot, now):
-    # Missing evidence is never a closed padlock. Same kernel boot + freshness
-    # are both required, including after a rapid restart or resumed session.
+def display_state(record, current_boot):
+    # Missing evidence is never a closed padlock. Same kernel boot is the only
+    # freshness requirement: the publisher now runs once at logon (not on a
+    # timer), and this state has never been observed to change without a
+    # restart -- which is itself a new boot, so a stale same-boot record
+    # would mean something broke, not that time passed.
     if not current_boot or record.get('windows_boot_filetime') != current_boot:
-        return 0
-    age = (now - dt.datetime.fromisoformat(record['observed_utc'])).total_seconds()
-    if not 0 <= age <= 150:
         return 0
     if record.get('live_gpu_state') == 'LOCKED':
         return 1
@@ -47,7 +46,7 @@ def main():
         return
     try:
         record = json.loads(CACHE.read_text(encoding='utf-8'))
-        value = display_state(record, observation.get('windows_boot_filetime'), dt.datetime.now(dt.timezone.utc))
+        value = display_state(record, observation.get('windows_boot_filetime'))
     except (OSError, ValueError, KeyError, TypeError):
         value = 0
     print(value)
