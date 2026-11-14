@@ -34,7 +34,7 @@ def _read_offset(api, offset):
     return int(result['regValueLo'], 16)
 
 
-def read_live_state(harvest_timeout=8.0):
+def read_live_state(harvest_timeout=15.0):
     """Returns 'LOCKED', 'UNLOCKED', or 'UNKNOWN'. Never raises."""
     try:
         import frida
